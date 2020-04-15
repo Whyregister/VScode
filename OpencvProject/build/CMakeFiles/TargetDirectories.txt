@@ -1,0 +1,5 @@
+G:/VScode/OpencvProject/build/CMakeFiles/rebuild_cache.dir
+G:/VScode/OpencvProject/build/CMakeFiles/OpencvProject.dir
+G:/VScode/OpencvProject/build/CMakeFiles/package.dir
+G:/VScode/OpencvProject/build/CMakeFiles/package_source.dir
+G:/VScode/OpencvProject/build/CMakeFiles/edit_cache.dir

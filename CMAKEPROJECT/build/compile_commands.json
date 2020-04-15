@@ -1,0 +1,7 @@
+[
+{
+  "directory": "G:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\test.cpp.obj -c G:\\VScode\\CMAKEPROJECT\\Src\\test.cpp",
+  "file": "G:/VScode/CMAKEPROJECT/Src/test.cpp"
+}
+]
