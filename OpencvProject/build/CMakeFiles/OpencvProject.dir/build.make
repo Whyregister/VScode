@@ -42,10 +42,10 @@ RM = D:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\VScode\OpencvProject
+CMAKE_SOURCE_DIR = E:\VScode\OpencvProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\VScode\OpencvProject\build
+CMAKE_BINARY_DIR = E:\VScode\OpencvProject\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpencvProject.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/OpencvProject.dir/flags.make
 CMakeFiles/OpencvProject.dir/Src/main.cpp.obj: CMakeFiles/OpencvProject.dir/flags.make
 CMakeFiles/OpencvProject.dir/Src/main.cpp.obj: CMakeFiles/OpencvProject.dir/includes_CXX.rsp
 CMakeFiles/OpencvProject.dir/Src/main.cpp.obj: ../Src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\OpencvProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpencvProject.dir/Src/main.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpencvProject.dir\Src\main.cpp.obj -c G:\VScode\OpencvProject\Src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\OpencvProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpencvProject.dir/Src/main.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\OpencvProject.dir\Src\main.cpp.obj -c E:\VScode\OpencvProject\Src\main.cpp
 
 CMakeFiles/OpencvProject.dir/Src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpencvProject.dir/Src/main.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\OpencvProject\Src\main.cpp > CMakeFiles\OpencvProject.dir\Src\main.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\OpencvProject\Src\main.cpp > CMakeFiles\OpencvProject.dir\Src\main.cpp.i
 
 CMakeFiles/OpencvProject.dir/Src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpencvProject.dir/Src/main.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\OpencvProject\Src\main.cpp -o CMakeFiles\OpencvProject.dir\Src\main.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\OpencvProject\Src\main.cpp -o CMakeFiles\OpencvProject.dir\Src\main.cpp.s
 
 # Object files for target OpencvProject
 OpencvProject_OBJECTS = \
@@ -79,25 +79,25 @@ OpencvProject_EXTERNAL_OBJECTS =
 
 bin/OpencvProject.exe: CMakeFiles/OpencvProject.dir/Src/main.cpp.obj
 bin/OpencvProject.exe: CMakeFiles/OpencvProject.dir/build.make
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_dnn420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_gapi420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_highgui420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_ml420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_objdetect420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_photo420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_stitching420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_video420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_videoio420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_imgcodecs420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_calib3d420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_features2d420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_flann420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_imgproc420.dll.a
-bin/OpencvProject.exe: D:/Opencv/build/x64/MinGW/lib/libopencv_core420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_dnn420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_gapi420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_highgui420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_ml420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_objdetect420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_photo420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_stitching420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_video420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_videoio420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_imgcodecs420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_calib3d420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_features2d420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_flann420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_imgproc420.dll.a
+bin/OpencvProject.exe: D:/OPENCV/opencv/build/x64/MinGW/lib/libopencv_core420.dll.a
 bin/OpencvProject.exe: CMakeFiles/OpencvProject.dir/linklibs.rsp
 bin/OpencvProject.exe: CMakeFiles/OpencvProject.dir/objects1.rsp
 bin/OpencvProject.exe: CMakeFiles/OpencvProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\VScode\OpencvProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin\OpencvProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\VScode\OpencvProject\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin\OpencvProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpencvProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/OpencvProject.dir/clean:
 .PHONY : CMakeFiles/OpencvProject.dir/clean
 
 CMakeFiles/OpencvProject.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\VScode\OpencvProject G:\VScode\OpencvProject G:\VScode\OpencvProject\build G:\VScode\OpencvProject\build G:\VScode\OpencvProject\build\CMakeFiles\OpencvProject.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\VScode\OpencvProject E:\VScode\OpencvProject E:\VScode\OpencvProject\build E:\VScode\OpencvProject\build E:\VScode\OpencvProject\build\CMakeFiles\OpencvProject.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/OpencvProject.dir/depend
 

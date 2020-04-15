@@ -1,4 +1,4 @@
-# Install script for directory: G:/VScode/OpencvProject
+# Install script for directory: E:/VScode/OpencvProject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/VScode/OpencvProject/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/VScode/OpencvProject/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

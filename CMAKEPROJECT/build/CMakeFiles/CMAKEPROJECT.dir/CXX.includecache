@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/Calendar.h
+iostream
+-
+Date.h
+../Inc/Date.h
+Times.h
+../Inc/Times.h
+
+../Inc/Date.h
+iostream
+-
+iomanip
+-
+
+../Inc/Times.h
+iostream
+-
+iomanip
+-
+
+E:/VScode/CMAKEPROJECT/Src/Calendar.cpp
+Calendar.h
+E:/VScode/CMAKEPROJECT/Src/Calendar.h
+

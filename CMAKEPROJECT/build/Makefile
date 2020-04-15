@@ -47,10 +47,10 @@ RM = D:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\VScode\CMAKEPROJECT
+CMAKE_SOURCE_DIR = E:\VScode\CMAKEPROJECT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\VScode\CMAKEPROJECT\build
+CMAKE_BINARY_DIR = E:\VScode\CMAKEPROJECT\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\VScode\CMAKEPROJECT\build\CMakeFiles G:\VScode\CMAKEPROJECT\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode\CMAKEPROJECT\build\CMakeFiles E:\VScode\CMAKEPROJECT\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start G:\VScode\CMAKEPROJECT\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode\CMAKEPROJECT\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,32 +122,464 @@ CMAKEPROJECT/fast:
 	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/build
 .PHONY : CMAKEPROJECT/fast
 
-Src/test.obj: Src/test.cpp.obj
+Src/ADC.obj: Src/ADC.cpp.obj
 
-.PHONY : Src/test.obj
+.PHONY : Src/ADC.obj
 
 # target to build an object file
-Src/test.cpp.obj:
-	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj
-.PHONY : Src/test.cpp.obj
+Src/ADC.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj
+.PHONY : Src/ADC.cpp.obj
 
-Src/test.i: Src/test.cpp.i
+Src/ADC.i: Src/ADC.cpp.i
 
-.PHONY : Src/test.i
+.PHONY : Src/ADC.i
 
 # target to preprocess a source file
-Src/test.cpp.i:
-	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.i
-.PHONY : Src/test.cpp.i
+Src/ADC.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.i
+.PHONY : Src/ADC.cpp.i
 
-Src/test.s: Src/test.cpp.s
+Src/ADC.s: Src/ADC.cpp.s
 
-.PHONY : Src/test.s
+.PHONY : Src/ADC.s
 
 # target to generate assembly for a file
-Src/test.cpp.s:
-	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.s
-.PHONY : Src/test.cpp.s
+Src/ADC.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.s
+.PHONY : Src/ADC.cpp.s
+
+Src/Calendar.obj: Src/Calendar.cpp.obj
+
+.PHONY : Src/Calendar.obj
+
+# target to build an object file
+Src/Calendar.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj
+.PHONY : Src/Calendar.cpp.obj
+
+Src/Calendar.i: Src/Calendar.cpp.i
+
+.PHONY : Src/Calendar.i
+
+# target to preprocess a source file
+Src/Calendar.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.i
+.PHONY : Src/Calendar.cpp.i
+
+Src/Calendar.s: Src/Calendar.cpp.s
+
+.PHONY : Src/Calendar.s
+
+# target to generate assembly for a file
+Src/Calendar.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.s
+.PHONY : Src/Calendar.cpp.s
+
+Src/Date.obj: Src/Date.cpp.obj
+
+.PHONY : Src/Date.obj
+
+# target to build an object file
+Src/Date.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj
+.PHONY : Src/Date.cpp.obj
+
+Src/Date.i: Src/Date.cpp.i
+
+.PHONY : Src/Date.i
+
+# target to preprocess a source file
+Src/Date.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.i
+.PHONY : Src/Date.cpp.i
+
+Src/Date.s: Src/Date.cpp.s
+
+.PHONY : Src/Date.s
+
+# target to generate assembly for a file
+Src/Date.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.s
+.PHONY : Src/Date.cpp.s
+
+Src/Employee.obj: Src/Employee.cpp.obj
+
+.PHONY : Src/Employee.obj
+
+# target to build an object file
+Src/Employee.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj
+.PHONY : Src/Employee.cpp.obj
+
+Src/Employee.i: Src/Employee.cpp.i
+
+.PHONY : Src/Employee.i
+
+# target to preprocess a source file
+Src/Employee.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.i
+.PHONY : Src/Employee.cpp.i
+
+Src/Employee.s: Src/Employee.cpp.s
+
+.PHONY : Src/Employee.s
+
+# target to generate assembly for a file
+Src/Employee.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.s
+.PHONY : Src/Employee.cpp.s
+
+Src/Galon.obj: Src/Galon.cpp.obj
+
+.PHONY : Src/Galon.obj
+
+# target to build an object file
+Src/Galon.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj
+.PHONY : Src/Galon.cpp.obj
+
+Src/Galon.i: Src/Galon.cpp.i
+
+.PHONY : Src/Galon.i
+
+# target to preprocess a source file
+Src/Galon.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.i
+.PHONY : Src/Galon.cpp.i
+
+Src/Galon.s: Src/Galon.cpp.s
+
+.PHONY : Src/Galon.s
+
+# target to generate assembly for a file
+Src/Galon.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.s
+.PHONY : Src/Galon.cpp.s
+
+Src/Gamecore.obj: Src/Gamecore.cpp.obj
+
+.PHONY : Src/Gamecore.obj
+
+# target to build an object file
+Src/Gamecore.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.obj
+.PHONY : Src/Gamecore.cpp.obj
+
+Src/Gamecore.i: Src/Gamecore.cpp.i
+
+.PHONY : Src/Gamecore.i
+
+# target to preprocess a source file
+Src/Gamecore.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.i
+.PHONY : Src/Gamecore.cpp.i
+
+Src/Gamecore.s: Src/Gamecore.cpp.s
+
+.PHONY : Src/Gamecore.s
+
+# target to generate assembly for a file
+Src/Gamecore.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.s
+.PHONY : Src/Gamecore.cpp.s
+
+Src/Hero.obj: Src/Hero.cpp.obj
+
+.PHONY : Src/Hero.obj
+
+# target to build an object file
+Src/Hero.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.obj
+.PHONY : Src/Hero.cpp.obj
+
+Src/Hero.i: Src/Hero.cpp.i
+
+.PHONY : Src/Hero.i
+
+# target to preprocess a source file
+Src/Hero.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.i
+.PHONY : Src/Hero.cpp.i
+
+Src/Hero.s: Src/Hero.cpp.s
+
+.PHONY : Src/Hero.s
+
+# target to generate assembly for a file
+Src/Hero.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.s
+.PHONY : Src/Hero.cpp.s
+
+Src/Integer.obj: Src/Integer.cpp.obj
+
+.PHONY : Src/Integer.obj
+
+# target to build an object file
+Src/Integer.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj
+.PHONY : Src/Integer.cpp.obj
+
+Src/Integer.i: Src/Integer.cpp.i
+
+.PHONY : Src/Integer.i
+
+# target to preprocess a source file
+Src/Integer.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.i
+.PHONY : Src/Integer.cpp.i
+
+Src/Integer.s: Src/Integer.cpp.s
+
+.PHONY : Src/Integer.s
+
+# target to generate assembly for a file
+Src/Integer.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.s
+.PHONY : Src/Integer.cpp.s
+
+Src/Mystring.obj: Src/Mystring.cpp.obj
+
+.PHONY : Src/Mystring.obj
+
+# target to build an object file
+Src/Mystring.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj
+.PHONY : Src/Mystring.cpp.obj
+
+Src/Mystring.i: Src/Mystring.cpp.i
+
+.PHONY : Src/Mystring.i
+
+# target to preprocess a source file
+Src/Mystring.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.i
+.PHONY : Src/Mystring.cpp.i
+
+Src/Mystring.s: Src/Mystring.cpp.s
+
+.PHONY : Src/Mystring.s
+
+# target to generate assembly for a file
+Src/Mystring.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.s
+.PHONY : Src/Mystring.cpp.s
+
+Src/Rect.obj: Src/Rect.cpp.obj
+
+.PHONY : Src/Rect.obj
+
+# target to build an object file
+Src/Rect.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj
+.PHONY : Src/Rect.cpp.obj
+
+Src/Rect.i: Src/Rect.cpp.i
+
+.PHONY : Src/Rect.i
+
+# target to preprocess a source file
+Src/Rect.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.i
+.PHONY : Src/Rect.cpp.i
+
+Src/Rect.s: Src/Rect.cpp.s
+
+.PHONY : Src/Rect.s
+
+# target to generate assembly for a file
+Src/Rect.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.s
+.PHONY : Src/Rect.cpp.s
+
+Src/Student.obj: Src/Student.cpp.obj
+
+.PHONY : Src/Student.obj
+
+# target to build an object file
+Src/Student.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj
+.PHONY : Src/Student.cpp.obj
+
+Src/Student.i: Src/Student.cpp.i
+
+.PHONY : Src/Student.i
+
+# target to preprocess a source file
+Src/Student.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.i
+.PHONY : Src/Student.cpp.i
+
+Src/Student.s: Src/Student.cpp.s
+
+.PHONY : Src/Student.s
+
+# target to generate assembly for a file
+Src/Student.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.s
+.PHONY : Src/Student.cpp.s
+
+Src/Test.obj: Src/Test.cpp.obj
+
+.PHONY : Src/Test.obj
+
+# target to build an object file
+Src/Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj
+.PHONY : Src/Test.cpp.obj
+
+Src/Test.i: Src/Test.cpp.i
+
+.PHONY : Src/Test.i
+
+# target to preprocess a source file
+Src/Test.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.i
+.PHONY : Src/Test.cpp.i
+
+Src/Test.s: Src/Test.cpp.s
+
+.PHONY : Src/Test.s
+
+# target to generate assembly for a file
+Src/Test.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.s
+.PHONY : Src/Test.cpp.s
+
+Src/Times.obj: Src/Times.cpp.obj
+
+.PHONY : Src/Times.obj
+
+# target to build an object file
+Src/Times.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj
+.PHONY : Src/Times.cpp.obj
+
+Src/Times.i: Src/Times.cpp.i
+
+.PHONY : Src/Times.i
+
+# target to preprocess a source file
+Src/Times.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.i
+.PHONY : Src/Times.cpp.i
+
+Src/Times.s: Src/Times.cpp.s
+
+.PHONY : Src/Times.s
+
+# target to generate assembly for a file
+Src/Times.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.s
+.PHONY : Src/Times.cpp.s
+
+Src/Warrior.obj: Src/Warrior.cpp.obj
+
+.PHONY : Src/Warrior.obj
+
+# target to build an object file
+Src/Warrior.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj
+.PHONY : Src/Warrior.cpp.obj
+
+Src/Warrior.i: Src/Warrior.cpp.i
+
+.PHONY : Src/Warrior.i
+
+# target to preprocess a source file
+Src/Warrior.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.i
+.PHONY : Src/Warrior.cpp.i
+
+Src/Warrior.s: Src/Warrior.cpp.s
+
+.PHONY : Src/Warrior.s
+
+# target to generate assembly for a file
+Src/Warrior.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.s
+.PHONY : Src/Warrior.cpp.s
+
+Src/landowener.obj: Src/landowener.cpp.obj
+
+.PHONY : Src/landowener.obj
+
+# target to build an object file
+Src/landowener.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj
+.PHONY : Src/landowener.cpp.obj
+
+Src/landowener.i: Src/landowener.cpp.i
+
+.PHONY : Src/landowener.i
+
+# target to preprocess a source file
+Src/landowener.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.i
+.PHONY : Src/landowener.cpp.i
+
+Src/landowener.s: Src/landowener.cpp.s
+
+.PHONY : Src/landowener.s
+
+# target to generate assembly for a file
+Src/landowener.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.s
+.PHONY : Src/landowener.cpp.s
+
+Src/lib.obj: Src/lib.cpp.obj
+
+.PHONY : Src/lib.obj
+
+# target to build an object file
+Src/lib.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj
+.PHONY : Src/lib.cpp.obj
+
+Src/lib.i: Src/lib.cpp.i
+
+.PHONY : Src/lib.i
+
+# target to preprocess a source file
+Src/lib.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.i
+.PHONY : Src/lib.cpp.i
+
+Src/lib.s: Src/lib.cpp.s
+
+.PHONY : Src/lib.s
+
+# target to generate assembly for a file
+Src/lib.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.s
+.PHONY : Src/lib.cpp.s
+
+Src/main.obj: Src/main.cpp.obj
+
+.PHONY : Src/main.obj
+
+# target to build an object file
+Src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj
+.PHONY : Src/main.cpp.obj
+
+Src/main.i: Src/main.cpp.i
+
+.PHONY : Src/main.i
+
+# target to preprocess a source file
+Src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.i
+.PHONY : Src/main.cpp.i
+
+Src/main.s: Src/main.cpp.s
+
+.PHONY : Src/main.s
+
+# target to generate assembly for a file
+Src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.s
+.PHONY : Src/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +590,57 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CMAKEPROJECT
 	@echo ... edit_cache
-	@echo ... Src/test.obj
-	@echo ... Src/test.i
-	@echo ... Src/test.s
+	@echo ... Src/ADC.obj
+	@echo ... Src/ADC.i
+	@echo ... Src/ADC.s
+	@echo ... Src/Calendar.obj
+	@echo ... Src/Calendar.i
+	@echo ... Src/Calendar.s
+	@echo ... Src/Date.obj
+	@echo ... Src/Date.i
+	@echo ... Src/Date.s
+	@echo ... Src/Employee.obj
+	@echo ... Src/Employee.i
+	@echo ... Src/Employee.s
+	@echo ... Src/Galon.obj
+	@echo ... Src/Galon.i
+	@echo ... Src/Galon.s
+	@echo ... Src/Gamecore.obj
+	@echo ... Src/Gamecore.i
+	@echo ... Src/Gamecore.s
+	@echo ... Src/Hero.obj
+	@echo ... Src/Hero.i
+	@echo ... Src/Hero.s
+	@echo ... Src/Integer.obj
+	@echo ... Src/Integer.i
+	@echo ... Src/Integer.s
+	@echo ... Src/Mystring.obj
+	@echo ... Src/Mystring.i
+	@echo ... Src/Mystring.s
+	@echo ... Src/Rect.obj
+	@echo ... Src/Rect.i
+	@echo ... Src/Rect.s
+	@echo ... Src/Student.obj
+	@echo ... Src/Student.i
+	@echo ... Src/Student.s
+	@echo ... Src/Test.obj
+	@echo ... Src/Test.i
+	@echo ... Src/Test.s
+	@echo ... Src/Times.obj
+	@echo ... Src/Times.i
+	@echo ... Src/Times.s
+	@echo ... Src/Warrior.obj
+	@echo ... Src/Warrior.i
+	@echo ... Src/Warrior.s
+	@echo ... Src/landowener.obj
+	@echo ... Src/landowener.i
+	@echo ... Src/landowener.s
+	@echo ... Src/lib.obj
+	@echo ... Src/lib.i
+	@echo ... Src/lib.s
+	@echo ... Src/main.obj
+	@echo ... Src/main.i
+	@echo ... Src/main.s
 .PHONY : help
 
 

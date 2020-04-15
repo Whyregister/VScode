@@ -1,7 +1,87 @@
 [
 {
-  "directory": "G:/VScode/CMAKEPROJECT/build",
-  "command": "D:\\MingW\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\test.cpp.obj -c G:\\VScode\\CMAKEPROJECT\\Src\\test.cpp",
-  "file": "G:/VScode/CMAKEPROJECT/Src/test.cpp"
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\ADC.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\ADC.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/ADC.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Calendar.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Calendar.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Calendar.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Date.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Date.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Date.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Employee.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Employee.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Employee.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Galon.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Galon.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Galon.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Gamecore.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Gamecore.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Gamecore.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Hero.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Hero.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Hero.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Integer.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Integer.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Integer.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Mystring.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Mystring.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Mystring.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Rect.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Rect.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Rect.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Student.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Student.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Student.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Test.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Test.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Test.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Times.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Times.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Times.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\Warrior.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\Warrior.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/Warrior.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\landowener.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\landowener.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/landowener.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\lib.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\lib.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/lib.cpp"
+},
+{
+  "directory": "E:/VScode/CMAKEPROJECT/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\CMAKEPROJECT.dir\\Src\\main.cpp.obj -c E:\\VScode\\CMAKEPROJECT\\Src\\main.cpp",
+  "file": "E:/VScode/CMAKEPROJECT/Src/main.cpp"
 }
 ]

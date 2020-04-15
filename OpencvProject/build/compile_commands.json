@@ -1,7 +1,7 @@
 [
 {
-  "directory": "G:/VScode/OpencvProject/build",
-  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/OpencvProject.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\OpencvProject.dir\\Src\\main.cpp.obj -c G:\\VScode\\OpencvProject\\Src\\main.cpp",
-  "file": "G:/VScode/OpencvProject/Src/main.cpp"
+  "directory": "E:/VScode/OpencvProject/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/OpencvProject.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\OpencvProject.dir\\Src\\main.cpp.obj -c E:\\VScode\\OpencvProject\\Src\\main.cpp",
+  "file": "E:/VScode/OpencvProject/Src/main.cpp"
 }
 ]

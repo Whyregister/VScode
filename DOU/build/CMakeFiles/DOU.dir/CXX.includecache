@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/Landowener.h
+iostream
+-
+vector
+-
+algorithm
+-
+iterator
+-
+stdlib.h
+-
+time.h
+-
+
+../Inc/Student.h
+iostream
+-
+
+E:/VScode/DOU/Src/Student.cpp
+Student.h
+E:/VScode/DOU/Src/Student.h
+
+E:/VScode/DOU/Src/landowener.cpp
+Landowener.h
+E:/VScode/DOU/Src/Landowener.h
+
+E:/VScode/DOU/Src/main.cpp
+iostream
+-
+conio.h
+-
+Landowener.h
+E:/VScode/DOU/Src/Landowener.h
+Student.h
+E:/VScode/DOU/Src/Student.h
+

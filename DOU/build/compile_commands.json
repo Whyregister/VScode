@@ -1,0 +1,17 @@
+[
+{
+  "directory": "E:/VScode/DOU/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/DOU.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\DOU.dir\\Src\\Student.cpp.obj -c E:\\VScode\\DOU\\Src\\Student.cpp",
+  "file": "E:/VScode/DOU/Src/Student.cpp"
+},
+{
+  "directory": "E:/VScode/DOU/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/DOU.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\DOU.dir\\Src\\landowener.cpp.obj -c E:\\VScode\\DOU\\Src\\landowener.cpp",
+  "file": "E:/VScode/DOU/Src/landowener.cpp"
+},
+{
+  "directory": "E:/VScode/DOU/build",
+  "command": "D:\\MingW\\bin\\g++.exe   @CMakeFiles/DOU.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\DOU.dir\\Src\\main.cpp.obj -c E:\\VScode\\DOU\\Src\\main.cpp",
+  "file": "E:/VScode/DOU/Src/main.cpp"
+}
+]
