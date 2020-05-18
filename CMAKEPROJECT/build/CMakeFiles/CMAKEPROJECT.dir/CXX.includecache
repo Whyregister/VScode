@@ -6,27 +6,25 @@
 
 #IncludeRegexTransform: 
 
-../Inc/Calendar.h
+../Inc/Integer.h
 iostream
 -
-Date.h
-../Inc/Date.h
-Times.h
-../Inc/Times.h
 
-../Inc/Date.h
+../Inc/MyVector.hpp
 iostream
 -
-iomanip
+cstring
 -
 
-../Inc/Times.h
+G:/VScode/CMAKEPROJECT/Src/Integer.cpp
+Integer.h
+G:/VScode/CMAKEPROJECT/Src/Integer.h
+
+G:/VScode/CMAKEPROJECT/Src/main.cpp
 iostream
 -
-iomanip
+MyVector.hpp
+G:/VScode/CMAKEPROJECT/Src/MyVector.hpp
+conio.h
 -
-
-E:/VScode/CMAKEPROJECT/Src/Calendar.cpp
-Calendar.h
-E:/VScode/CMAKEPROJECT/Src/Calendar.h
 

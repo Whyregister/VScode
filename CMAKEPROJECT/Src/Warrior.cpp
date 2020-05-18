@@ -11,7 +11,7 @@ Warrior::Warrior()
     cout << "new warrior! withoutname" << endl;
 }
 
-Warrior::Warrior(string name)  :Hero(name)
+Warrior::Warrior(string name) :Hero(name)
 {
     cout << "new warrior! havename" << endl;
 }

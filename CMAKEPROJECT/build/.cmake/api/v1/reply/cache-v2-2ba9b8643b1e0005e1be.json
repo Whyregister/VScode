@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/VScode/CMAKEPROJECT/build"
+			"value" : "G:/VScode/CMAKEPROJECT/build"
 		},
 		{
 			"name" : "CMAKEPROJECT_SOURCE_DIR",
@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/VScode/CMAKEPROJECT"
+			"value" : "G:/VScode/CMAKEPROJECT"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/VScode/CMAKEPROJECT/build"
+			"value" : "g:/VScode/CMAKEPROJECT/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/VScode/CMAKEPROJECT"
+			"value" : "G:/VScode/CMAKEPROJECT"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

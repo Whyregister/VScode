@@ -27,7 +27,6 @@ public:
 	Hero(string name);
 
 	virtual ~Hero();
-
 	virtual void Move() = 0;
 	virtual void Death() = 0;
 	virtual void Skill(Hero &) = 0;

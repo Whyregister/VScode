@@ -16,15 +16,12 @@ void RGB2HSV(double red, double green, double blue, double& hue, double& saturat
 
 	double r, g, b;
 	double h, s, i;
-
 	double sum;
 	double minRGB, maxRGB;
 	double theta;
-
 	r = red / 255.0;
 	g = green / 255.0;
 	b = blue / 255.0;
-
 	minRGB = ((r < g) ? (r) : (g));
 	minRGB = (minRGB < b) ? (minRGB) : (b);
 
@@ -83,7 +80,7 @@ bool isInside(Rect rect1, Rect rect2)
 	else
 	{
 		if (t.area() != 0)
-			return true;
+		return true;
 	}
 }
 
@@ -115,21 +112,20 @@ int main()
 			}
 		}
 	}
-	//imshow("hsv", matRgb);
 
 	// 中值滤波
 	medianBlur(matRgb, matRgb, 3);
 	medianBlur(matRgb, matRgb, 5);
 	imshow("medianBlur", matRgb);
 
-	Mat element = getStructuringElement(MORPH_ELLIPSE, Size(2 * 1 + 1, 2 * 1 + 1), Point(1, 1));
-	Mat element1 = getStructuringElement(MORPH_ELLIPSE, Size(2 * 3 + 1, 2 * 3 + 1), Point(3, 3));
+	Mat element = getStructuringElement(MORPH_ELLIPSE, Size(3,3), Point(1, 1));
+	Mat element1 = getStructuringElement(MORPH_ELLIPSE, Size(7,7), Point(3, 3));
 	erode(matRgb, matRgb, element);//腐蚀    
-	//imshow("erode", matRgb);
+
 	dilate(matRgb, matRgb, element1);//膨胀    
-	//imshow("dilate", matRgb);
+
 	fillHole(matRgb, matRgb);//填充    
-	//imshow("fillHole", matRgb);
+
 
 	Mat matRgbCopy;
 	matRgb.copyTo(matRgbCopy);
@@ -154,8 +150,6 @@ int main()
 	}
 	avgX = (rect_stop.x + rect_stop.x + rect_stop.width) / 2; 
 	avgY = (rect_stop.y + rect_stop.y + rect_stop.height) / 2; 
-	//printf("%d,%d\n", rect_stop.x, rect_stop.y);//矩形的左上角坐标，rect_stop.x, rect_stop.y
-	//对提取出的轮廓进行去噪，筛选出交通标志
 	
 	Mat drawing = Mat::zeros(matRgb.size(), CV_8UC3);
 	for (int i = 0; i < contours.size(); i++)
@@ -210,11 +204,12 @@ int main()
 			}
 		}
 	}
-	if (black > 300) {
+	if (black > 300)
+	{
 		stop = 1;
-                                printf("%d\n", stop);
+        printf("%d\n", stop);
 	}
-                imshow("result.jpg", srcImg);
+    imshow("result.jpg", srcImg);
 	waitKey(0);
 	return 0;
 }

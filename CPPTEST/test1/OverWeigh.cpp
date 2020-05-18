@@ -22,10 +22,8 @@ int main ()
     cout << "超轻" << endl;
     else
     {
-    cout << "正常" << endl;
-    }
-    
-            
+        cout << "正常" << endl;
+    }            
     return 0;
 
 }

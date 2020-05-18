@@ -10,7 +10,6 @@ private:
 
 	int attribute1;
 
-
 public:
 	void Move(Hero & hero);
 
@@ -19,6 +18,5 @@ public:
 	Gamecore();
 
 	~Gamecore();
-
 };
 #endif

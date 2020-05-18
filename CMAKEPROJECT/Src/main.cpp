@@ -1,23 +1,48 @@
 #include <iostream>
-#include "Calendar.h"
+#include "MyVector.hpp"
 #include <conio.h>
 using namespace std;
 
 int main()
 {
-    Calendar * ptr_cal = new Calendar(2020,3,26,17,19,0);
-    
-    cout << endl;
-    ptr_cal->ShowCalendar();
-
-    delete ptr_cal;
-
+    MyVector<int> a(5,7);    
+    cout << a <<endl;
+    a.Push_back(8);
+    cout << a[5] << endl;
     getch();
     return 0;
 }
 
 
+// void Testaddadd()
+// {
+//     Integer a(10);
+//     cout << a++ << endl;
+//     cout << ++a << endl;
+//     cout << a-- << endl;
+//     cout << --a << endl;
+//     //10,12,12,10;
+// }
 
+// void TestMyvector()
+// {
+//     MyVector<int> a(5,7);    
+//     cout << a <<endl;
+//     a.Push_back(8);
+//     cout << a[5] << endl;
+// }
+
+// void TestComplex()
+// {
+    // Complex com1(1,2);
+    // Complex com2;
+    // cin >> com2;
+    // cout << "com2:" << com2 << endl;
+    // cout << "com1+com2=" << com2+com1 << endl;
+    // cout << "com1*com2=" << com1*com2 << endl;
+    // cout << "com1-com2=" << com1-com2 << endl;
+    // cout << "com1/com2=" << com1/com2 << endl;
+// }
 
 
 
@@ -32,34 +57,34 @@ int main()
 // {
 //     Carlo c(40,1.2);
 
-//     cout << "µ±Ç°×Ü¼Û¸ñ = " << c.GetCurrentTotalPrice() << endl;
-//     cout << "µ±Ç°×ÜÖØÁ¿ = " << c.GetCurrentTotalWeight() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½Ü¼Û¸ï¿½ = " << c.GetCurrentTotalPrice() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = " << c.GetCurrentTotalWeight() << endl;
 //     c.ShowBoxInfor();
 //     cout << endl;
 
 //     c.SellBox();
-//     cout << "µ±Ç°×Ü¼Û¸ñ = " << c.GetCurrentTotalPrice() << endl;
-//     cout << "µ±Ç°×ÜÖØÁ¿ = " << c.GetCurrentTotalWeight() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½Ü¼Û¸ï¿½ = " << c.GetCurrentTotalPrice() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = " << c.GetCurrentTotalWeight() << endl;
 //     c.ShowBoxInfor();
 //     cout << endl;
 
 //     c.SetCarlo(20,4.3);
 //     c.BuyBox();
-//     cout << "µ±Ç°×Ü¼Û¸ñ = " << c.GetCurrentTotalPrice() << endl;
-//     cout << "µ±Ç°×ÜÖØÁ¿ = " << c.GetCurrentTotalWeight() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½Ü¼Û¸ï¿½ = " << c.GetCurrentTotalPrice() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = " << c.GetCurrentTotalWeight() << endl;
 //     c.ShowBoxInfor();
 //     cout << endl;
 
 
 //     Carlo d(1,1);
-//     cout << "µ±Ç°×Ü¼Û¸ñ = " << d.GetCurrentTotalPrice() << endl;
-//     cout << "µ±Ç°×ÜÖØÁ¿ = " << d.GetCurrentTotalWeight() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½Ü¼Û¸ï¿½ = " << d.GetCurrentTotalPrice() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = " << d.GetCurrentTotalWeight() << endl;
 //     d.ShowBoxInfor();    
 
 
 //     Carlo b(20,1.3);
-//     cout << "µ±Ç°×Ü¼Û¸ñ = " << b.GetCurrentTotalPrice() << endl;
-//     cout << "µ±Ç°×ÜÖØÁ¿ = " << b.GetCurrentTotalWeight() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½Ü¼Û¸ï¿½ = " << b.GetCurrentTotalPrice() << endl;
+//     cout << "ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = " << b.GetCurrentTotalWeight() << endl;
 //     b.ShowBoxInfor();    
 
 //     getch();
@@ -70,21 +95,21 @@ int main()
 // {
 //     Hero galon;
     
-//     /**¶ÔÏóµØÖ·*/
+//     /**ï¿½ï¿½ï¿½ï¿½ï¿½Ö·*/
 //     int * ObjPtr = (int * )&galon;
-//     cout << "¶ÔÏóµØÖ·£º" << ObjPtr << endl;
+//     cout << "ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½" << ObjPtr << endl;
 
-//     /**ÐéÄâº¯ÊýÁÐ±íµØÖ·*/
+//     /**ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ö·*/
 //     int * visListAddress = (int *) * (ObjPtr + 0);
-//     cout << "Òþ²Ø³ÉÔ±£ºÐéÄâº¯ÊýÁÐ±íµØÖ·" << visListAddress << endl;
+//     cout << "ï¿½ï¿½ï¿½Ø³ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ö·" << visListAddress << endl;
 
-//     /**µÚÒ»¸öÐéÄâº¯ÊýµØÖ·*/
+//     /**ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·*/
 //     int * List1Address = (int * ) * (visListAddress + 0);
-//     cout << "µÚÒ»¸öÐéÄâº¯ÊýµØÖ·" << List1Address << endl;
+//     cout << "ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·" << List1Address << endl;
 
-//     /**µÚ¶þ¸öÐéÄâº¯ÊýµØÖ·*/
+//     /**ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·*/
 //     int * list2Address = (int *) * (visListAddress + 2);
-//     cout << "µÚ¶þ¸öÐéÄâº¯ÊýµØÖ·" << list2Address << endl;
+//     cout << "ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·" << list2Address << endl;
                                         
 //     void( * FunPtr)() = (void (*)())(List1Address);
 //     FunPtr();
@@ -94,25 +119,25 @@ int main()
 
 //     Warrior sb;
 
-//     /**¶ÔÏóµØÖ·*/
+//     /**ï¿½ï¿½ï¿½ï¿½ï¿½Ö·*/
 //     int * ObjPtr2 = (int *)&sb;
-//     cout << "¶ÔÏóµØÖ·£º" << ObjPtr2 << endl;
+//     cout << "ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½" << ObjPtr2 << endl;
 
-//     /**ÐéÄâº¯ÊýÁÐ±íµØÖ·*/
+//     /**ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ö·*/
 //     int * virListPtr2 = (int *)*(ObjPtr2 + 0);
-//     cout << "ÐéÄâº¯ÊýÁÐ±íµØÖ·£º" << virListPtr2 << endl;
+//     cout << "ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ö·ï¿½ï¿½" << virListPtr2 << endl;
 
-//     /**µÚÒ»¸öÐéÄâº¯ÊýÁÐ±íµØÖ·*/
+//     /**ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ö·*/
 //     int * virFunc1Ptr = (int *)*(virListPtr2+0);
-//     cout << "µÚÒ»¸öÐéÄâº¯ÊýÁÐ±íµØÖ·£º"  << virFunc1Ptr << endl;
+//     cout << "ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ö·ï¿½ï¿½"  << virFunc1Ptr << endl;
 
-//     /**µÚ¶þ¸öÐéÄâº¯ÊýµØÖ·*/
+//     /**ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·*/
 //     int * virFunc2Ptr = (int * ) * ( virListPtr2 + 2);
-//     cout << "µÚ¶þ¸öÐéÄâº¯ÊýµØÖ·£º" << virFunc2Ptr << endl;
+//     cout << "ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½" << virFunc2Ptr << endl;
 
-//     /**µÚÈý¸öÐéÄâº¯ÊýµØÖ·*/
+//     /**ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·*/
 //     int * virFunc3Ptr = (int *) * ( virListPtr2 + 4);
-//     cout << "µÚÈý¸öÐéÄâº¯ÊýµØÖ·£º" << virFunc1Ptr << endl;
+//     cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½âº¯ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½" << virFunc1Ptr << endl;
 
 
 //     FunPtr = (void(*)())virFunc1Ptr;

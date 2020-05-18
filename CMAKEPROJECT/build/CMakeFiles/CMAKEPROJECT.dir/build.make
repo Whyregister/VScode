@@ -42,10 +42,10 @@ RM = D:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\VScode\CMAKEPROJECT
+CMAKE_SOURCE_DIR = G:\VScode\CMAKEPROJECT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\VScode\CMAKEPROJECT\build
+CMAKE_BINARY_DIR = G:\VScode\CMAKEPROJECT\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CMAKEPROJECT.dir/depend.make
@@ -59,245 +59,260 @@ include CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj: ../Src/ADC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\ADC.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\ADC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\ADC.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\ADC.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\ADC.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\ADC.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\ADC.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\ADC.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\ADC.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\ADC.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\ADC.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\ADC.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj: ../Src/Calendar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Calendar.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Calendar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Calendar.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Calendar.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Calendar.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Calendar.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Calendar.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Calendar.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Calendar.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Calendar.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Calendar.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Calendar.cpp.s
+
+CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
+CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
+CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.obj: ../Src/Complex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Complex.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Complex.cpp
+
+CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.i"
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Complex.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Complex.cpp.i
+
+CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.s"
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Complex.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Complex.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj: ../Src/Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Date.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Date.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Date.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Date.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Date.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Date.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Date.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Date.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Date.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Date.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Date.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj: ../Src/Employee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Employee.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Employee.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Employee.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Employee.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Employee.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Employee.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Employee.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Employee.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Employee.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Employee.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Employee.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj: ../Src/Galon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Galon.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Galon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Galon.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Galon.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Galon.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Galon.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Galon.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Galon.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Galon.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Galon.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Galon.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Galon.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.obj: ../Src/Gamecore.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Gamecore.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Gamecore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Gamecore.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Gamecore.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Gamecore.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Gamecore.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Gamecore.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Gamecore.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Gamecore.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Gamecore.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Gamecore.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Gamecore.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Gamecore.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.obj: ../Src/Hero.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Hero.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Hero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Hero.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Hero.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Hero.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Hero.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Hero.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Hero.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Hero.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Hero.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Hero.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Hero.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Hero.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj: ../Src/Integer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Integer.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Integer.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Integer.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Integer.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Integer.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Integer.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Integer.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Integer.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Integer.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Integer.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Integer.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj: ../Src/Mystring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Mystring.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Mystring.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Mystring.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Mystring.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Mystring.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Mystring.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Mystring.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Mystring.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Mystring.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Mystring.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Mystring.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Mystring.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj: ../Src/Rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Rect.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Rect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Rect.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Rect.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Rect.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Rect.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Rect.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Rect.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Rect.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Rect.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Rect.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Rect.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj: ../Src/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Student.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Student.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Student.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Student.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Student.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Student.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Student.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Student.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Student.cpp.s
-
-CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
-CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
-CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj: ../Src/Test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Test.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Test.cpp
-
-CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Test.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Test.cpp.i
-
-CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Test.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Test.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Student.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Student.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj: ../Src/Times.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Times.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Times.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Times.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Times.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Times.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Times.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Times.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Times.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Times.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Times.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Times.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Times.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj: ../Src/Warrior.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Warrior.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\Warrior.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\Warrior.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\Warrior.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\Warrior.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Warrior.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\Warrior.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\Warrior.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\Warrior.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Warrior.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\Warrior.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\Warrior.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj: ../Src/landowener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\landowener.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\landowener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\landowener.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\landowener.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\landowener.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\landowener.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\landowener.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\landowener.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\landowener.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\landowener.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\landowener.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\landowener.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj: ../Src/lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\lib.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\lib.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\lib.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\lib.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\lib.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\lib.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\lib.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\lib.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\lib.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\lib.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\lib.cpp.s
 
 CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
 CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
 CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj: ../Src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj"
-	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\main.cpp.obj -c E:\VScode\CMAKEPROJECT\Src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\main.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\main.cpp
 
 CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.i"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\VScode\CMAKEPROJECT\Src\main.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\main.cpp.i
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\main.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\main.cpp.i
 
 CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.s"
-	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\VScode\CMAKEPROJECT\Src\main.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\main.cpp.s
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\main.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\main.cpp.s
+
+CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/flags.make
+CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj: CMakeFiles/CMAKEPROJECT.dir/includes_CXX.rsp
+CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj: ../Src/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj"
+	D:\MingW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CMAKEPROJECT.dir\Src\test.cpp.obj -c G:\VScode\CMAKEPROJECT\Src\test.cpp
+
+CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.i"
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\VScode\CMAKEPROJECT\Src\test.cpp > CMakeFiles\CMAKEPROJECT.dir\Src\test.cpp.i
+
+CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.s"
+	D:\MingW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\VScode\CMAKEPROJECT\Src\test.cpp -o CMakeFiles\CMAKEPROJECT.dir\Src\test.cpp.s
 
 # Object files for target CMAKEPROJECT
 CMAKEPROJECT_OBJECTS = \
 "CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj" \
+"CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj" \
@@ -307,18 +322,19 @@ CMAKEPROJECT_OBJECTS = \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj" \
-"CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj" \
 "CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj" \
-"CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj"
+"CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj" \
+"CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj"
 
 # External object files for target CMAKEPROJECT
 CMAKEPROJECT_EXTERNAL_OBJECTS =
 
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/ADC.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Calendar.cpp.obj
+bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Complex.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Date.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Employee.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Galon.cpp.obj
@@ -328,17 +344,17 @@ bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Integer.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Mystring.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Rect.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Student.cpp.obj
-bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Test.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Times.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/Warrior.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/landowener.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/lib.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/main.cpp.obj
+bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/Src/test.cpp.obj
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/build.make
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/linklibs.rsp
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/objects1.rsp
 bin/CMAKEPROJECT.exe: CMakeFiles/CMAKEPROJECT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable bin\CMAKEPROJECT.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable bin\CMAKEPROJECT.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CMAKEPROJECT.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -351,6 +367,6 @@ CMakeFiles/CMAKEPROJECT.dir/clean:
 .PHONY : CMakeFiles/CMAKEPROJECT.dir/clean
 
 CMakeFiles/CMAKEPROJECT.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\VScode\CMAKEPROJECT E:\VScode\CMAKEPROJECT E:\VScode\CMAKEPROJECT\build E:\VScode\CMAKEPROJECT\build E:\VScode\CMAKEPROJECT\build\CMakeFiles\CMAKEPROJECT.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\VScode\CMAKEPROJECT G:\VScode\CMAKEPROJECT G:\VScode\CMAKEPROJECT\build G:\VScode\CMAKEPROJECT\build G:\VScode\CMAKEPROJECT\build\CMakeFiles\CMAKEPROJECT.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CMAKEPROJECT.dir/depend
 

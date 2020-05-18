@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CMAKEPROJECT::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CMAKEPROJECT-Debug-0396f4b9e7655e06e536.json",
+					"jsonFile" : "target-CMAKEPROJECT-Debug-ca8198a41dbc4243fc3f.json",
 					"name" : "CMAKEPROJECT",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/VScode/CMAKEPROJECT/build",
-		"source" : "E:/VScode/CMAKEPROJECT"
+		"build" : "G:/VScode/CMAKEPROJECT/build",
+		"source" : "G:/VScode/CMAKEPROJECT"
 	},
 	"version" : 
 	{

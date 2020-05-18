@@ -43,10 +43,10 @@ RM = D:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\VScode\CMAKEPROJECT
+CMAKE_SOURCE_DIR = G:\VScode\CMAKEPROJECT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\VScode\CMAKEPROJECT\build
+CMAKE_BINARY_DIR = G:\VScode\CMAKEPROJECT\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ clean: CMakeFiles/CMAKEPROJECT.dir/clean
 CMakeFiles/CMAKEPROJECT.dir/all:
 	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/depend
 	$(MAKE) -f CMakeFiles\CMAKEPROJECT.dir\build.make CMakeFiles/CMAKEPROJECT.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target CMAKEPROJECT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=G:\VScode\CMAKEPROJECT\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target CMAKEPROJECT"
 .PHONY : CMakeFiles/CMAKEPROJECT.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CMAKEPROJECT.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode\CMAKEPROJECT\build\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\VScode\CMAKEPROJECT\build\CMakeFiles 19
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CMAKEPROJECT.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\VScode\CMAKEPROJECT\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start G:\VScode\CMAKEPROJECT\build\CMakeFiles 0
 .PHONY : CMakeFiles/CMAKEPROJECT.dir/rule
 
 # Convenience name for target.

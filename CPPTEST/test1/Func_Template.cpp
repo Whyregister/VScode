@@ -1,6 +1,5 @@
 #include <iostream>
 #include <conio.h>
-
 using namespace std;
 template<typename unConfirm,typename unConfirm2> void change(unConfirm & ,unConfirm2 & );
 
@@ -9,23 +8,19 @@ template<typename unConfirm,typename unConfirm2> void change(unConfirm & a,unCon
     unConfirm temp;
     temp = a;
     a = b;
-
     b = temp;
 }
 
 template<typename unConfirm> void sort(unConfirm * Array_name,int Len)
 {
     for(int i = 0; i < Len ; i++)
-    {
-    
+    {    
     for (int j=0; j < Len - i - 1 ; j++)
     {
         if (Array_name[j] < Array_name[j+1])
         change(Array_name[j],Array_name[j+1]);
     }
-
     }
-
 }
 template<typename unConfirm> void output(unConfirm * Array_name,int Len)
 {
@@ -36,21 +31,14 @@ template<typename unConfirm> void output(unConfirm * Array_name,int Len)
 
 int main ()
 {
-    int Array_int[] {1,3,4,54,5};
+    int Array_int[] = {1,3,4,54,5};
 
     sort(Array_int,sizeof(Array_int)/sizeof(int));
     output(Array_int,sizeof(Array_int)/sizeof(int));
 
-    double Array_double[] {1.23, 324.343 ,343.343,343.345};
+    double Array_double[] = {1.23, 324.343 ,343.343,343.345};
     sort(Array_double,sizeof(Array_double)/sizeof(double));
-    output(Array_double,sizeof(Array_double)/sizeof(double));
-
-    int num_int = 1;
-    double num_double = 2.50;
-    change(num_double,num_int);
-    cout << num_double << '\t' << num_int << endl;
-    getch();
-    
+    output(Array_double,sizeof(Array_double)/sizeof(double));  
     return 0;
 
 }

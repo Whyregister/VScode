@@ -10,14 +10,14 @@ class Integer
             int m_num;
 
     public:
-            Integer();
-            Integer(istream in);    
+            Integer();  
             Integer(int value); 
             ~Integer();
-            int GetNum() const;
             const Integer operator+(const int value) const;
-
-            friend const Integer operator+(int value,const Integer & Int);
+            Integer & operator ++ ();
+            const Integer   operator ++ (int n);
+            Integer & operator -- ();
+            const Integer   operator -- (int n);            
             friend ostream & operator<<(ostream & out ,const Integer & Int);            
             friend const istream & operator>>(istream & in ,Integer & Int);            
 
